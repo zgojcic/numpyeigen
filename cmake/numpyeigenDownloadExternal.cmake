@@ -36,6 +36,6 @@ endfunction()
 function(numpyeigen_download_pybind11)
     numpyeigen_download_project(pybind11
         GIT_REPOSITORY https://github.com/zgojcic/pybind11.git
-        GIT_TAG        master
+        GIT_TAG        zg/sync_pybind11
     )
 endfunction()
